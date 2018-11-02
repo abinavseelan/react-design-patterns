@@ -6,13 +6,14 @@ class App extends React.Component {
     render() {
         <Analytics>
             {
-                () => (
+                (analyticsProps) => (
                     <React.Fragment>
                         <div>
                             <input
                                 type="text"
                                 name="name"
                                 placeholder="Name"
+                                {...analyticsProps}
                             />
                         </div>
                         <div>
@@ -21,11 +22,13 @@ class App extends React.Component {
                                 name="phone
                                 number"
                                 placeholder="Phone Number"
+                                {...analyticsProps}
                             />
                         </div>
                         <div>
                             <button
                                 name="submit-button"
+                                {...analyticsProps}
                             >
                                 Submit
                             </button>
