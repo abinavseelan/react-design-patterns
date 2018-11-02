@@ -6,8 +6,7 @@ import {
     Switch,
 } from 'react-router-dom';
 
-import Final from './Final';
-import Demo from './Demo';
+import Patterns from './Patterns';
 import ToC from './ToC';
 
 class App extends Component {
@@ -19,26 +18,19 @@ class App extends Component {
             <React.Fragment>
               <Route exact path='/' component={ToC} />
 
-              <Route exact path='/compound-components' component={Final.CompoundComponent}/>
-              <Route exact path='/compound-components/demo' component={Demo.CompoundComponent}/>
+              <Route exact path='/compound-components' component={Patterns.CompoundComponent}/>
 
-              <Route exact path='/flexible-compound-components' component={Final.FlexibleCC}/>
-              <Route exact path='/flexible-compound-components/demo' component={Demo.FlexibleCC}/>
+              <Route exact path='/flexible-compound-components' component={Patterns.FlexibleCC}/>
 
-              <Route exact path='/render-props' component={Final.RenderProps}/>
-              <Route exact path='/render-props/demo' component={Demo.RenderProps}/>
+              <Route exact path='/render-props' component={Patterns.RenderProps}/>
 
-              <Route exact path='/prop-collections' component={Final.PropCollections}/>
-              <Route exact path='/prop-collections/demo' component={Demo.PropCollections}/>
+              <Route exact path='/prop-collections' component={Patterns.PropCollections}/>
 
-              <Route exact path='/prop-getters' component={Final.PropGetters}/>
-              <Route exact path='/prop-getters/demo' component={Demo.PropGetters}/>
+              <Route exact path='/prop-getters' component={Patterns.PropGetters}/>
 
-              <Route exact path='/state-initializers' component={Final.StateInitializers}/>
-              <Route exact path='/state-initializers/demo' component={Demo.StateInitializers}/>
+              <Route exact path='/state-initializers' component={Patterns.StateInitializers}/>
 
-              <Route exact path='/state-reducers' component={Final.StateReducers}/>
-              <Route exact path='/state-reducers/demo' component={Demo.StateReducers}/>
+              <Route exact path='/state-reducers' component={Patterns.StateReducers}/>
             </React.Fragment>
           </Switch>
         </Router>
