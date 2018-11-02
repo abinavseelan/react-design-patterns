@@ -9,6 +9,10 @@ const ToC = () => {
         <div className="container">
             <div>
                 <div className="toc-container">
+                    <Link to="/hoc">Higher Order Components</Link>
+                </div>
+
+                <div className="toc-container">
                     <Link to="/compound-components">Compound Components</Link>
                 </div>
 

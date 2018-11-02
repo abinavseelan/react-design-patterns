@@ -5,6 +5,7 @@ import PropGetters from './prop-getters';
 import FlexibleCC from './flexible-compound-components';
 import StateInitializers from './state-initializers';
 import StateReducers from './state-reducers';
+import HoC from './HoC';
 
 export default {
     CompoundComponent,
@@ -13,5 +14,6 @@ export default {
     PropGetters,
     FlexibleCC,
     StateInitializers,
-    StateReducers
+    StateReducers,
+    HoC,
 }

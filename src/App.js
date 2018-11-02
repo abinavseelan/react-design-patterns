@@ -18,6 +18,8 @@ class App extends Component {
             <React.Fragment>
               <Route exact path='/' component={ToC} />
 
+              <Route exact path='/hoc' component={Patterns.HoC}/>
+
               <Route exact path='/compound-components' component={Patterns.CompoundComponent}/>
 
               <Route exact path='/flexible-compound-components' component={Patterns.FlexibleCC}/>
