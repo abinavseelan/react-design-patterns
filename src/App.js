@@ -36,6 +36,9 @@ class App extends Component {
 
               <Route exact path='/state-initializers' component={Final.StateInitializers}/>
               <Route exact path='/state-initializers/demo' component={Demo.StateInitializers}/>
+
+              <Route exact path='/state-reducers' component={Final.StateReducers}/>
+              <Route exact path='/state-reducers/demo' component={Demo.StateReducers}/>
             </React.Fragment>
           </Switch>
         </Router>

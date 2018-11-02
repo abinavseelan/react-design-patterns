@@ -50,6 +50,13 @@ const ToC = () => {
                     <Link to="/state-initializers">Final Version</Link>
                     <Link to="/state-initializers/demo">Demo</Link>
                 </div>
+                <div className="toc-container">
+                    <h3>
+                        State Reducers
+                    </h3>
+                    <Link to="/state-reducers">Final Version</Link>
+                    <Link to="/state-reducers/demo">Demo</Link>
+                </div>
             </div>
         </div>
     )
