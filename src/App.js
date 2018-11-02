@@ -33,6 +33,9 @@ class App extends Component {
 
               <Route exact path='/prop-getters' component={Final.PropGetters}/>
               <Route exact path='/prop-getters/demo' component={Demo.PropGetters}/>
+
+              <Route exact path='/state-initializers' component={Final.StateInitializers}/>
+              <Route exact path='/state-initializers/demo' component={Demo.StateInitializers}/>
             </React.Fragment>
           </Switch>
         </Router>
