@@ -8,13 +8,13 @@ class Form extends React.Component {
   static Input = ({ children, value, name, onChange }) => {
     return (
         <label>
-        {children}
-        <input
-            value={value}
-            type="text"
-            name={name}
-            onChange={onChange}
-        />
+          {children}
+          <input
+              value={value || ''}
+              type="text"
+              name={name}
+              onChange={onChange}
+          />
         </label>
     );
   };
