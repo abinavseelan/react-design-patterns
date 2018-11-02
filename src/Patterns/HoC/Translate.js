@@ -2,10 +2,10 @@ import React from 'react';
 
 const strings = {
     en: {
-        title: 'to infinity and beyond',
+        title: 'to infinity and beyond 🚀',
     },
     fr: {
-        title: 'vers l\'infini et au-delà',
+        title: 'vers l\'infini et au-delà 🚀',
     }
 }
 

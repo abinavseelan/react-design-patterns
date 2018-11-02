@@ -19,15 +19,18 @@ class App extends React.Component {
 
     render() {
         return (
-            <Context.Provider
-                value={{
-                    value: this.state.value,
-                    onChange: this.onChange,
-                }}
-            >
-                <Component1 />
-                <pre>{this.state.value}</pre>
-            </Context.Provider>
+            <div>
+                <Context.Provider
+                    value={{
+                        value: this.state.value,
+                        onChange: this.onChange,
+                    }}
+                >
+                    <h3>Type Something!</h3>
+                    <Component1 />
+                    <pre>{this.state.value}</pre>
+                </Context.Provider>
+            </div>
         )
     }
 };

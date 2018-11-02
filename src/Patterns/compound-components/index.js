@@ -4,13 +4,15 @@ import PrivacySetting from "./PrivacySetting";
 
 function App() {
   return (
-    <PrivacySetting>
-      <PrivacySetting.Checkbox>Make profile public</PrivacySetting.Checkbox>
+    <div>
+      <PrivacySetting>
+        <PrivacySetting.Checkbox>Make profile public</PrivacySetting.Checkbox>
 
-      <PrivacySetting.Message>
-        This will let everyone view your profile.
-      </PrivacySetting.Message>
-    </PrivacySetting>
+        <PrivacySetting.Message>
+          This will let everyone view your profile.
+        </PrivacySetting.Message>
+      </PrivacySetting>
+    </div>
   );
 }
 

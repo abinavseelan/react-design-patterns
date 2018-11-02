@@ -19,7 +19,7 @@ class App extends React.Component {
 
     render() {
         return (
-            <SubmittableInput reducer={this.inputReducer} />
+            <SubmittableInput reducer={this.inputReducer} onSubmit={() => {}} />
         );
     }
 }

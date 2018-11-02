@@ -15,7 +15,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <React.Fragment>
+      <div>
         <Form onSubmit={this.onSubmit}>
           <h1>Contact Details</h1>
 
@@ -29,7 +29,7 @@ class App extends React.Component {
         </Form>
 
         <pre>{JSON.stringify(this.state.result, null, 2)}</pre>
-      </React.Fragment>
+      </div>
     );
   }
 }

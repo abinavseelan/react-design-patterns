@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: sans-serif;
+    color: #333333;
 }
 
 .container {
@@ -22,4 +23,13 @@
     border-bottom: 1px solid #2bbbad;
     text-decoration: none;
     color: inherit;
+}
+
+input {
+    padding: 4px 8px;
+    border: 1px solid #2bbbad;
+    border-radius: 4px;
+    font-size: 1em;
+
+    margin: 8px;
 }

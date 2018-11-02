@@ -12,7 +12,7 @@ import ToC from './ToC';
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
+      <div className="container">
         <Router>
           <Switch>
             <React.Fragment>
@@ -40,9 +40,7 @@ class App extends Component {
             </React.Fragment>
           </Switch>
         </Router>
-        
-        
-      </React.Fragment>
+      </div>
     );
   }
 }

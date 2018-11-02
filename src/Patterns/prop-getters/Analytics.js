@@ -12,7 +12,7 @@ const AnalyticsProps = {
 const getAnalyticsProps = ({ onClick, ...rest}) => {
     return {
         ...rest,
-        AnalyticsProps,
+        ...AnalyticsProps,
         onClick(...args) {
             onClick(...args);
             AnalyticsProps.onClick(...args);
