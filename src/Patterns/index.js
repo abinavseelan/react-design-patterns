@@ -6,6 +6,7 @@ import FlexibleCC from './flexible-compound-components';
 import StateInitializers from './state-initializers';
 import StateReducers from './state-reducers';
 import HoC from './HoC';
+import Provider from './Provider';
 
 export default {
     CompoundComponent,
@@ -16,4 +17,5 @@ export default {
     StateInitializers,
     StateReducers,
     HoC,
+    Provider
 }

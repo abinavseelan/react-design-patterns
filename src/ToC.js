@@ -13,6 +13,10 @@ const ToC = () => {
                 </div>
 
                 <div className="toc-container">
+                    <Link to="/provider">Provider</Link>
+                </div>
+
+                <div className="toc-container">
                     <Link to="/compound-components">Compound Components</Link>
                 </div>
 

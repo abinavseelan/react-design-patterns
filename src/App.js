@@ -20,6 +20,8 @@ class App extends Component {
 
               <Route exact path='/hoc' component={Patterns.HoC}/>
 
+              <Route exact path='/provider' component={Patterns.Provider}/>
+
               <Route exact path='/compound-components' component={Patterns.CompoundComponent}/>
 
               <Route exact path='/flexible-compound-components' component={Patterns.FlexibleCC}/>
