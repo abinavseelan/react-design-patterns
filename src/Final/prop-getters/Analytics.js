@@ -22,7 +22,7 @@ const getAnalyticsProps = ({ onClick, ...rest}) => {
 
 class Analytics extends React.Component {
     render() {
-        this.props.children(AnalyticsProps);
+        return this.props.children(getAnalyticsProps);
     }
 }
 

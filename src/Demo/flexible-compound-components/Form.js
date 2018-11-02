@@ -1,13 +1,11 @@
 import React from "react";
 
-const FormContext = React.createContext();
-
 class Form extends React.Component {
   state = {
     form: {}
   };
 
-  static Input = ({ children, value, name }) => {
+  static Input = ({ children, value, name, onChange }) => {
     return (
         <label>
         {children}

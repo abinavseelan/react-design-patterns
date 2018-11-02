@@ -4,7 +4,8 @@ import Analytics from './Analytics';
 
 class App extends React.Component {
     render() {
-        <Analytics>
+        return (
+            <Analytics>
             {
                 (analyticsProps) => (
                     <React.Fragment>
@@ -37,6 +38,7 @@ class App extends React.Component {
                 )
             }
         </Analytics>
+        )
     }
 };
 

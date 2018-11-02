@@ -2,7 +2,7 @@ import React from 'react';
 
 class Analytics extends React.Component {
     render() {
-        this.props.children;
+        return this.props.children;
     }
 }
 

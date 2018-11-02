@@ -11,7 +11,7 @@ const AnalyticsProps = {
 
 class Analytics extends React.Component {
     render() {
-        this.props.children(AnalyticsProps);
+        return this.props.children(AnalyticsProps);
     }
 }
 
