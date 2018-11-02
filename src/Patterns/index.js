@@ -7,6 +7,7 @@ import StateInitializers from './state-initializers';
 import StateReducers from './state-reducers';
 import HoC from './HoC';
 import Provider from './Provider';
+import ProviderWithHoc from './provider-with-hoc';
 
 export default {
     CompoundComponent,
@@ -17,5 +18,6 @@ export default {
     StateInitializers,
     StateReducers,
     HoC,
-    Provider
+    Provider,
+    ProviderWithHoc,
 }

@@ -17,6 +17,10 @@ const ToC = () => {
                 </div>
 
                 <div className="toc-container">
+                    <Link to="/provider-with-hoc">Provider With HoC</Link>
+                </div>
+
+                <div className="toc-container">
                     <Link to="/compound-components">Compound Components</Link>
                 </div>
 
