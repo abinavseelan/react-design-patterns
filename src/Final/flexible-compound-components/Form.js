@@ -14,7 +14,7 @@ class Form extends React.Component {
           <label>
             {children}
             <input
-              value={contextValue.form[name]}
+              value={contextValue.form[name] || ''}
               type="text"
               name={name}
               onChange={contextValue.onChange}
