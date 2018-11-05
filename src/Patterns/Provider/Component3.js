@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Context } from './index';
 
-class Component2 extends React.Component {
+class Component3 extends React.Component {
     render() {
         return (
             <Context.Consumer>
@@ -16,4 +16,4 @@ class Component2 extends React.Component {
     }
 }
 
-export default Component2;
+export default Component3;
