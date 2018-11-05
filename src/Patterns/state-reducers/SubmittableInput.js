@@ -22,7 +22,7 @@ class SubmittableInput extends React.Component {
 
         return (
             <React.Fragment>
-                <input type="text" value={this.state.value} onChange={this.onChange} />
+                <input type={this.props.type} value={this.state.value} onChange={this.onChange} />
                 <button onClick={this.onSubmit}>Submit</button>
             </React.Fragment>
         );

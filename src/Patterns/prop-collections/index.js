@@ -8,7 +8,8 @@ class App extends React.Component {
             <Analytics>
                 {
                     (analyticsProps) => (
-                        <React.Fragment>
+                        <div>
+                            <h2>Click on the fields.</h2>
                             <div>
                                 <input
                                     type="text"
@@ -34,7 +35,7 @@ class App extends React.Component {
                                     Submit
                                 </button>
                             </div>
-                        </React.Fragment>
+                        </div>
                     )
                 }
             </Analytics>

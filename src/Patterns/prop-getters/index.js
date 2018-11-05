@@ -7,7 +7,8 @@ function App() {
     <Analytics>
       {
         (getAnalyticsProps) => (
-          <React.Fragment>
+          <div>
+            <h2>Click on the input field.</h2>
             <input
                 {
                     ...getAnalyticsProps({
@@ -20,7 +21,7 @@ function App() {
                     })
                 }
             />
-          </React.Fragment>
+          </div>
         )
       }
     </Analytics>
